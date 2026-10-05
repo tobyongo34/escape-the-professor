@@ -1,0 +1,24 @@
+# Downloaded developer tools and local-only helpers
+/tools/
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Generated output, credentials, and Studio lock files
+/build/
+*.log
+sourcemap.json
+*.rbxl.lock
+.env
+.env.*
+!.env.example
+
+# Keep the latest complete game; preserve older backups locally
+/*.rbxl
+!/ESCAPE THE PROFESSOR - Campus Upgrade.rbxl
+/scripts-only.rbxlx
+
+# Presentation scratch files and redundant source archive
+/presentation/.build/
+/presentation/output/*.zip
